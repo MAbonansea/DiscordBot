@@ -2,7 +2,7 @@ require('dotenv').config();
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const TOKEN = "ODAxOTUyNDc5OTY1MjE2ODAw.YAoKcg.yuRIRHzAeueDfS2YbTTBcEv1K3k";
+const TOKEN = "ODAxOTUyNDc5OTY1MjE2ODAw.YAoKcg.XZkMPOFE1RSvKLTOsIUzbkG-DPM";
 
 bot.login(TOKEN);
 bot.on('ready', () => {
